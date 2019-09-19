@@ -33,7 +33,7 @@ class Simulator:
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
+    logging.basicConfig(level=os.environ.get('LOGLEVEL', 'DEBUG'))
 
     simulator = Simulator.instantiate()
     simulator.debug()
