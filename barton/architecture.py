@@ -1,4 +1,5 @@
-from alexander.concepts import Architecture, Percept
+from alexander.concepts import Percept
+from .concepts import Architecture
 import logging
 
 
