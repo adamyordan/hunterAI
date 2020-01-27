@@ -15,7 +15,7 @@ class Remote:
 
         @staticmethod
         def step(remote):
-            state = request.get_json()
+            state = request.get_json(force=True)
             response = remote.step(state)
             return jsonify(response)
 
